@@ -1,0 +1,81 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : Javor-Lenovo
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : mynetworksettings.com
+
+Unknown adapter McAfee_VPN:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : PolarBear Tunnel
+   Physical Address. . . . . . . . . : 
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::5414:27df:8a51:7473%49(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 10.0.6.109(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.255
+   Default Gateway . . . . . . . . . : 
+   DNS Servers . . . . . . . . . . . : 172.17.3.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Unknown adapter McAfee VPN:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : TAP-Windows Adapter V9
+   Physical Address. . . . . . . . . : 00-FF-88-84-7D-DA
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 96-08-53-BD-2B-19
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : A6-08-53-BD-2B-19
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : mynetworksettings.com
+   Description . . . . . . . . . . . : Qualcomm Atheros QCA61x4A Wireless Network Adapter
+   Physical Address. . . . . . . . . : 94-08-53-BD-2B-19
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2600:4040:b39a:9200:7b43:2bae:1bb7:13fe(Preferred) 
+   Temporary IPv6 Address. . . . . . : 2600:4040:b39a:9200:7098:a6bf:4700:9380(Preferred) 
+   Link-local IPv6 Address . . . . . : fe80::9de1:5f19:4af:c2e7%14(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.1.156(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Thursday, April 3, 2025 19:38:32
+   Lease Expires . . . . . . . . . . : Saturday, April 5, 2025 20:02:07
+   Default Gateway . . . . . . . . . : fe80::3ebd:c5ff:fe52:9615%14
+                                       192.168.1.1
+   DHCP Server . . . . . . . . . . . : 192.168.1.1
+   DHCPv6 IAID . . . . . . . . . . . : 160696403
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2C-1B-5D-27-94-08-53-BD-2B-19
+   DNS Servers . . . . . . . . . . . : 192.168.1.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physical Address. . . . . . . . . : 94-08-53-BD-2B-1A
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes

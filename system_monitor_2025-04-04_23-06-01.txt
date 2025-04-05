@@ -1,0 +1,77 @@
+System Monitor Report - 2025-04-04_23-06-01
+==================================================
+
+Active Applications:
+--------------------------------------------------
+PID: 4, Name: System, Local Address: 192.168.1.156:16288, Remote Address: 192.168.1.158:445, Status: ESTABLISHED
+PID: 1224, Name: svchost.exe, Local Address: 10.0.6.109:20747, Remote Address: 52.159.127.243:443, Status: ESTABLISHED
+PID: 1804, Name: svchost.exe, Local Address: 10.0.6.109:57015, Remote Address: 146.75.82.172:80, Status: ESTABLISHED
+PID: 3600, Name: mc-fw-host.exe, Local Address: 10.0.6.109:56884, Remote Address: 34.195.221.223:443, Status: ESTABLISHED
+PID: 3600, Name: mc-fw-host.exe, Local Address: 192.168.1.156:49736, Remote Address: 18.214.173.230:443, Status: ESTABLISHED
+PID: 3936, Name: svchost.exe, Local Address: 10.0.6.109:56991, Remote Address: 35.186.224.24:443, Status: ESTABLISHED
+PID: 6180, Name: chrome.exe, Local Address: 10.0.6.109:23638, Remote Address: 104.18.26.48:443, Status: ESTABLISHED
+PID: 6180, Name: chrome.exe, Local Address: 10.0.6.109:20605, Remote Address: 192.178.130.188:5228, Status: ESTABLISHED
+PID: 7912, Name: Code.exe, Local Address: 10.0.6.109:57049, Remote Address: 20.42.65.84:443, Status: ESTABLISHED
+PID: 10908, Name: python.exe, Local Address: 127.0.0.1:57045, Remote Address: 127.0.0.1:56865, Status: ESTABLISHED
+PID: 12344, Name: python.exe, Local Address: 127.0.0.1:56871, Remote Address: 127.0.0.1:56866, Status: ESTABLISHED
+PID: 13036, Name: Code.exe, Local Address: 127.0.0.1:57046, Remote Address: 127.0.0.1:56864, Status: ESTABLISHED
+PID: 15384, Name: Grammarly.WebUI.exe, Local Address: 127.0.0.1:17450, Remote Address: 127.0.0.1:17451, Status: ESTABLISHED
+PID: 16300, Name: Grammarly.Desktop.exe, Local Address: 10.0.6.109:57014, Remote Address: 54.205.140.24:443, Status: ESTABLISHED
+PID: 16300, Name: Grammarly.Desktop.exe, Local Address: 127.0.0.1:17451, Remote Address: 127.0.0.1:17450, Status: ESTABLISHED
+PID: 19248, Name: CCleaner64.exe, Local Address: 10.0.6.109:20628, Remote Address: 34.139.55.92:7500, Status: ESTABLISHED
+PID: 19568, Name: python.exe, Local Address: 127.0.0.1:56865, Remote Address: 127.0.0.1:57045, Status: ESTABLISHED
+PID: 19568, Name: python.exe, Local Address: 127.0.0.1:56866, Remote Address: 127.0.0.1:56871, Status: ESTABLISHED
+PID: 19568, Name: python.exe, Local Address: 127.0.0.1:56865, Remote Address: 127.0.0.1:56872, Status: ESTABLISHED
+PID: 19568, Name: python.exe, Local Address: 127.0.0.1:56864, Remote Address: 127.0.0.1:57046, Status: ESTABLISHED
+PID: 21428, Name: python.exe, Local Address: 127.0.0.1:56872, Remote Address: 127.0.0.1:56865, Status: ESTABLISHED
+
+
+Captured Network Traffic:
+--------------------------------------------------
+Timestamp: 2025-04-04 23:06:02, Source: 192.168.1.159, Destination: 255.255.255.255, Protocol: 17, Size: 214 bytes
+Timestamp: 2025-04-04 23:06:02, Source: 192.168.1.152, Destination: 224.0.0.251, Protocol: 17, Size: 115 bytes
+Timestamp: 2025-04-04 23:06:02, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 138 bytes
+Timestamp: 2025-04-04 23:06:02, Source: 207.148.13.219, Destination: 192.168.1.156, Protocol: 17, Size: 127 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 1354 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 1354 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 1354 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 1354 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 938 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 1354 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 1354 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 1354 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 1354 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 1354 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 1354 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 1018 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 207.148.13.219, Destination: 192.168.1.156, Protocol: 17, Size: 129 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 207.148.13.219, Destination: 192.168.1.156, Protocol: 17, Size: 125 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 207.148.13.219, Destination: 192.168.1.156, Protocol: 17, Size: 129 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 207.148.13.219, Destination: 192.168.1.156, Protocol: 17, Size: 125 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 207.148.13.219, Destination: 192.168.1.156, Protocol: 17, Size: 125 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 207.148.13.219, Destination: 192.168.1.156, Protocol: 17, Size: 125 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 138 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 207.148.13.219, Destination: 192.168.1.156, Protocol: 17, Size: 994 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 207.148.13.219, Destination: 192.168.1.156, Protocol: 17, Size: 725 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 138 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 207.148.13.219, Destination: 192.168.1.156, Protocol: 17, Size: 302 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 138 bytes
+Timestamp: 2025-04-04 23:06:03, Source: 207.148.13.219, Destination: 192.168.1.156, Protocol: 17, Size: 126 bytes
+Timestamp: 2025-04-04 23:06:04, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 138 bytes
+Timestamp: 2025-04-04 23:06:04, Source: 207.148.13.219, Destination: 192.168.1.156, Protocol: 17, Size: 127 bytes
+Timestamp: 2025-04-04 23:06:04, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 122 bytes
+Timestamp: 2025-04-04 23:06:04, Source: 207.148.13.219, Destination: 192.168.1.156, Protocol: 17, Size: 114 bytes
+Timestamp: 2025-04-04 23:06:04, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 122 bytes
+Timestamp: 2025-04-04 23:06:07, Source: 192.168.1.159, Destination: 255.255.255.255, Protocol: 17, Size: 214 bytes
+Timestamp: 2025-04-04 23:06:07, Source: 192.168.1.156, Destination: 207.148.13.219, Protocol: 17, Size: 138 bytes
+Timestamp: 2025-04-04 23:06:07, Source: 207.148.13.219, Destination: 192.168.1.156, Protocol: 17, Size: 127 bytes
+Timestamp: 2025-04-04 23:06:08, Source: 192.168.1.152, Destination: 224.0.0.251, Protocol: 17, Size: 115 bytes
+Timestamp: 2025-04-04 23:06:09, Source: 192.168.1.152, Destination: 224.0.0.251, Protocol: 17, Size: 115 bytes
+Timestamp: 2025-04-04 23:06:09, Source: 192.168.1.156, Destination: 192.168.1.158, Protocol: 6, Size: 250 bytes
+Timestamp: 2025-04-04 23:06:09, Source: 192.168.1.158, Destination: 192.168.1.156, Protocol: 6, Size: 68 bytes
+Timestamp: 2025-04-04 23:06:09, Source: 192.168.1.158, Destination: 192.168.1.156, Protocol: 6, Size: 298 bytes
+Timestamp: 2025-04-04 23:06:09, Source: 192.168.1.156, Destination: 192.168.1.158, Protocol: 6, Size: 146 bytes
+Timestamp: 2025-04-04 23:06:09, Source: 192.168.1.158, Destination: 192.168.1.156, Protocol: 6, Size: 182 bytes
+Timestamp: 2025-04-04 23:06:09, Source: 192.168.1.156, Destination: 192.168.1.158, Protocol: 6, Size: 54 bytes
+Timestamp: 2025-04-04 23:06:10, Source: 192.168.1.1, Destination: 239.255.255.250, Protocol: 17, Size: 174 bytes
+Timestamp: 2025-04-04 23:06:11, Source: 192.168.1.100, Destination: 239.255.255.250, Protocol: 17, Size: 351 bytes
