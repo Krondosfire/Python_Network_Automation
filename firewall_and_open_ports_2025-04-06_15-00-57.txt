@@ -1,0 +1,9 @@
+Firewall Rules and Open Ports Report - 2025-04-06_15-00-57
+==================================================
+
+Local Open TCP Ports:
+135, 139, 445, 5040, 5357, 5500, 35009, 37069, 37070, 49664, 49665, 49666, 49667, 49668, 49669
+
+Remote Open TCP Ports on 192.168.1.153 (Range 20-25):
+No open TCP ports found.
+

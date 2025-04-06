@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Network Device Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>Network Device Status</h2>
+        <form method="POST" action="/backup" class="mb-3">
+            <button type="submit" class="btn btn-primary">Trigger Backup All Devices</button>
+        </form>
+        
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Device Name</th>
+                    <th>Status</th>
+                    <th>Last Backup</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for device in devices %}
+                <tr>
+                    <td>{{ device.name }}</td>
+                    <td>
+                        <span class="badge badge-{{ 'success' if device.status == 'up' else 'danger' }}">
+                            {{ device.status|upper }}
+                        </span>
+                    </td>
+                    <td>{{ device.last_backup or 'Never' }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
