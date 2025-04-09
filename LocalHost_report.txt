@@ -1,0 +1,65 @@
+SYSTEM INFORMATION REPORT
+========================================
+
+[HOST INFORMATION]
+Error: 'list' object has no attribute 'address'
+
+[OPERATING SYSTEM]
+System: Windows
+Release: 10
+Version: 10.0.19045
+Machine: AMD64
+
+[HARDWARE INFORMATION]
+CPU: AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD
+Memory Total: 17.88 GB
+Memory Available: 9.19 GB
+Memory Used Percent: 48.6%
+
+[STORAGE DEVICES]
+
+Device: C:\
+Mount: C:\
+Total: 118.00 GB
+Used: 113.96 GB
+Free: 4.04 GB
+
+[NETWORK PORTS]
+- 127.0.0.1:5354
+- :::49667
+- :::49665
+- 0.0.0.0:49667
+- 0.0.0.0:135
+- 0.0.0.0:49664
+- 0.0.0.0:445
+- 127.0.0.1:50170
+- 0.0.0.0:49666
+- 0.0.0.0:5357
+- :::5357
+- 0.0.0.0:49665
+- 0.0.0.0:49668
+- 0.0.0.0:49669
+- :::49666
+- :::49669
+- 192.168.1.156:139
+- :::49668
+- 127.0.0.1:50169
+- :::135
+- 0.0.0.0:5040
+- 127.0.0.1:48303
+- :::49664
+- :::445
+
+[RUNNING PROCESSES (First 10)]
+PID 0: System Idle Process (NT AUTHORITY\SYSTEM)
+PID 4: System (NT AUTHORITY\SYSTEM)
+PID 100: Registry (None)
+PID 420: smss.exe (None)
+PID 492: lsass.exe (None)
+PID 704: svchost.exe (None)
+PID 712: csrss.exe (None)
+PID 840: RuntimeBroker.exe (JAVOR-LENOVO\jmlad)
+PID 856: wininit.exe (None)
+PID 1008: services.exe (None)
+
+Report generated at: 2025-04-08T13:52:14.141798
