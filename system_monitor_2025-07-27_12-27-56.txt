@@ -1,0 +1,36 @@
+System Monitor Report - 2025-07-27_12-27-56
+==================================================
+
+Active Applications:
+--------------------------------------------------
+PID: 4, Name: System, Local Address: 192.168.1.156:1183, Remote Address: 192.168.1.158:445, Status: ESTABLISHED
+PID: 4284, Name: mDNSResponder.exe, Local Address: 127.0.0.1:5354, Remote Address: 127.0.0.1:49671, Status: ESTABLISHED
+PID: 4284, Name: mDNSResponder.exe, Local Address: 127.0.0.1:5354, Remote Address: 127.0.0.1:49670, Status: ESTABLISHED
+PID: 4296, Name: AppleMobileDeviceService.exe, Local Address: 127.0.0.1:49670, Remote Address: 127.0.0.1:5354, Status: ESTABLISHED
+PID: 4296, Name: AppleMobileDeviceService.exe, Local Address: 127.0.0.1:49671, Remote Address: 127.0.0.1:5354, Status: ESTABLISHED
+PID: 5152, Name: svchost.exe, Local Address: 192.168.1.156:1213, Remote Address: 172.183.7.192:443, Status: ESTABLISHED
+PID: 6364, Name: SearchApp.exe, Local Address: 2600:4040:b3b3:b300:b552:523d:c524:ab7d:3159, Remote Address: 2603:1036:302:834::2:443, Status: ESTABLISHED
+PID: 15268, Name: Code.exe, Local Address: 2600:4040:b3b3:b300:b552:523d:c524:ab7d:3243, Remote Address: 2606:50c0:8000::154:443, Status: ESTABLISHED
+PID: 15268, Name: Code.exe, Local Address: 192.168.1.156:3282, Remote Address: 20.189.173.6:443, Status: ESTABLISHED
+PID: 18436, Name: python.exe, Local Address: 127.0.0.1:3138, Remote Address: 127.0.0.1:3137, Status: ESTABLISHED
+PID: 18436, Name: python.exe, Local Address: 127.0.0.1:3137, Remote Address: 127.0.0.1:3138, Status: ESTABLISHED
+PID: 33240, Name: GitHubDesktop.exe, Local Address: 2600:4040:b3b3:b300:b552:523d:c524:ab7d:3247, Remote Address: 2606:50c0:8001::154:443, Status: ESTABLISHED
+PID: 33240, Name: GitHubDesktop.exe, Local Address: 192.168.1.156:3244, Remote Address: 140.82.112.26:443, Status: ESTABLISHED
+PID: 35092, Name: GoogleDriveFS.exe, Local Address: 2600:4040:b3b3:b300:b552:523d:c524:ab7d:3289, Remote Address: 2001:4860:4802:38::223:443, Status: ESTABLISHED
+PID: 35092, Name: GoogleDriveFS.exe, Local Address: 2600:4040:b3b3:b300:b552:523d:c524:ab7d:3188, Remote Address: 2607:f8b0:4006:80b::200a:443, Status: ESTABLISHED
+PID: 35092, Name: GoogleDriveFS.exe, Local Address: 2600:4040:b3b3:b300:b552:523d:c524:ab7d:1378, Remote Address: 2607:f8b0:4006:808::200a:443, Status: ESTABLISHED
+PID: 35092, Name: GoogleDriveFS.exe, Local Address: 2600:4040:b3b3:b300:b552:523d:c524:ab7d:3286, Remote Address: 2001:4860:4802:38::223:443, Status: ESTABLISHED
+PID: 36768, Name: chrome.exe, Local Address: 2600:4040:b3b3:b300:b552:523d:c524:ab7d:2706, Remote Address: 2606:4700::6812:1a30:443, Status: ESTABLISHED
+PID: 36768, Name: chrome.exe, Local Address: 192.168.1.156:3275, Remote Address: 13.224.214.13:443, Status: ESTABLISHED
+PID: 36768, Name: chrome.exe, Local Address: 2600:4040:b3b3:b300:b552:523d:c524:ab7d:1295, Remote Address: 2607:f8b0:4004:c21::bc:5228, Status: ESTABLISHED
+PID: 36768, Name: chrome.exe, Local Address: 192.168.1.156:3276, Remote Address: 34.120.195.249:443, Status: ESTABLISHED
+PID: 36768, Name: chrome.exe, Local Address: 192.168.1.156:3218, Remote Address: 140.82.112.25:443, Status: ESTABLISHED
+
+
+Captured Network Traffic:
+--------------------------------------------------
+Timestamp: 2025-07-27 12:28:00, Source: 192.168.1.159, Destination: 255.255.255.255, Protocol: 17, Size: 214 bytes
+Timestamp: 2025-07-27 12:28:02, Source: 192.168.1.156, Destination: 192.168.1.158, Protocol: 6, Size: 55 bytes
+Timestamp: 2025-07-27 12:28:02, Source: 192.168.1.158, Destination: 192.168.1.156, Protocol: 6, Size: 68 bytes
+Timestamp: 2025-07-27 12:28:05, Source: 192.168.1.159, Destination: 255.255.255.255, Protocol: 17, Size: 214 bytes
+Timestamp: 2025-07-27 12:28:06, Source: 192.168.1.1, Destination: 239.255.255.250, Protocol: 17, Size: 174 bytes

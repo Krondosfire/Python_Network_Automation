@@ -1,2 +1,4 @@
 2025-04-04 14:41:07,756 - Data: Latency: 50ms
 2025-04-04 14:41:07,758 - Data: Throughput: 1Gbps
+2025-07-27 12:30:03,697 - Data: Latency: 50ms
+2025-07-27 12:30:03,697 - Data: Throughput: 1Gbps

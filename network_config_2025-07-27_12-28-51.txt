@@ -1,0 +1,58 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : Javor-Lenovo
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : mynetworksettings.com
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 96-08-53-BD-2B-19
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : A6-08-53-BD-2B-19
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : mynetworksettings.com
+   Description . . . . . . . . . . . : Qualcomm Atheros QCA61x4A Wireless Network Adapter
+   Physical Address. . . . . . . . . : 94-08-53-BD-2B-19
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2600:4040:b3b3:b300:fb59:e1a1:e837:703e(Preferred) 
+   Temporary IPv6 Address. . . . . . : 2600:4040:b3b3:b300:b552:523d:c524:ab7d(Preferred) 
+   Link-local IPv6 Address . . . . . : fe80::9de1:5f19:4af:c2e7%14(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.1.156(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Sunday, July 20, 2025 15:38:53
+   Lease Expires . . . . . . . . . . : Monday, July 28, 2025 10:55:35
+   Default Gateway . . . . . . . . . : fe80::3ebd:c5ff:fe52:9615%14
+                                       192.168.1.1
+   DHCP Server . . . . . . . . . . . : 192.168.1.1
+   DHCPv6 IAID . . . . . . . . . . . : 160696403
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2C-1B-5D-27-94-08-53-BD-2B-19
+   DNS Servers . . . . . . . . . . . : 192.168.1.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physical Address. . . . . . . . . : 94-08-53-BD-2B-1A
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
