@@ -106,3 +106,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    # Network Interface for Home Network: "Wi-Fi"
+    # Start the script in PowerShell Terminal with: streamlit run network_dashboard.py
+    

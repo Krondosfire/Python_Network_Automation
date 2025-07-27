@@ -2,6 +2,8 @@ import psutil
 import time
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
+import datetime
+
 
 def get_bandwidth_usage(interval=1):
     """
@@ -20,6 +22,7 @@ def get_bandwidth_usage(interval=1):
 
     return upload_speed, download_speed
 
+
 def update_graph(frame, upload_data, download_data, line_upload, line_download):
     """
     Updates the graph with current bandwidth usage data.
@@ -35,7 +38,6 @@ def update_graph(frame, upload_data, download_data, line_upload, line_download):
     # Append data and maintain a rolling window of the last 60 points
     upload_data.append(upload_speed)
     download_data.append(download_speed)
-    
     if len(upload_data) > 60:
         upload_data.pop(0)
         download_data.pop(0)
@@ -43,30 +45,42 @@ def update_graph(frame, upload_data, download_data, line_upload, line_download):
     # Update line data
     line_upload.set_ydata(upload_data)
     line_download.set_ydata(download_data)
-    
+
     # Update x-axis limits dynamically
     line_upload.set_xdata(range(len(upload_data)))
     line_download.set_xdata(range(len(download_data)))
-    
+
     plt.gca().relim()
     plt.gca().autoscale_view()
+
+
+def on_close(event, fig):
+    """Save the figure when the plot window is closed."""
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    filename = f"bandwidth_usage_{timestamp}.png"
+    fig.savefig(filename)
+    print(f"Plot saved as {filename}")
+
 
 def main():
     # Initialize plot
     fig, ax = plt.subplots()
-    
+
     ax.set_title("Real-Time Bandwidth Usage")
     ax.set_xlabel("Time (seconds)")
     ax.set_ylabel("Speed (Mbps)")
-    
+
     line_upload, = ax.plot([], [], label="Upload Speed", color="orange")
     line_download, = ax.plot([], [], label="Download Speed", color="blue")
-    
+
     ax.legend(loc="upper right")
-    
+
     # Data storage for bandwidth usage
     upload_data = []
     download_data = []
+
+    # Connect the close event to the saving handler
+    fig.canvas.mpl_connect('close_event', lambda event: on_close(event, fig))
 
     # Animation function
     ani = FuncAnimation(
@@ -77,6 +91,7 @@ def main():
     )
 
     plt.show()
+
 
 if __name__ == "__main__":
     main()
